@@ -271,6 +271,7 @@
 	padding: 5px 10px 5px 10px;
 	border: 2px solid #DACDCD;
 	border-radius: 5px;
+	box-shadow: 5px 5px 10px #cccccc;
 	background:#f3f3f2;
     *width: 14.476723040552828%;
   }
@@ -552,6 +553,7 @@
   }
   .row-fluid {
     width: 100%;
+	margin-top:360px;
     *zoom: 1;
   }
   .row-fluid:before,
@@ -829,6 +831,7 @@
   }
   .row-fluid {
     width: 100%;
+	margin-top:360px;
   }
   .row,
   .thumbnails {
