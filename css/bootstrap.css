@@ -327,7 +327,7 @@ a:hover {
 
 .row-fluid {
   width: 100%;
-  margin-top: -15px;
+  margin-top: 410px;
   *zoom: 1;
 }
 
@@ -407,15 +407,21 @@ a:hover {
   *width: 31.861702127659576%;
 }
 
-.row-fluid .span3 {
-  width: 23.404255319148934%;
-  *width: 23.351063829787233%;
-}
-
-.row-fluid .span2 {
-  width: 14.893617021276595%;
-  *width: 14.840425531914894%;
-}
+  .row-fluid .span3 {
+    width: 30%;
+	margin-left: 10px;
+	padding: 5px 20px 5px 20px;
+    *width: 23.023731587561375%;
+  }
+  .row-fluid .span2 {
+    width: 68%;
+	margin-left: 0px;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid #DACDCD;
+	border-radius: 5px;
+	background:#f3f3f2;
+    *width: 14.476723040552828%;
+  }
 
 .row-fluid .span1 {
   width: 6.382978723404255%;
@@ -5726,7 +5732,9 @@ a.badge:hover {
 }
 
 .carousel {
-  position: relative;
+  position: absolute;
+  right: 0;
+  left: 0;
   margin-bottom: 20px;
   line-height: 1;
 }
