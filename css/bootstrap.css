@@ -5736,6 +5736,7 @@ a.badge:hover {
   right: 0;
   left: 0;
   margin-bottom: 20px;
+  margin-top: -5px;
   line-height: 1;
 }
 
