@@ -74,6 +74,10 @@
   .hidden-tablet {
     display: none !important;
   }
+  
+  .carousel {
+  margin-top:-50px;
+}
 
 }
 
@@ -893,6 +897,9 @@
   .modal.fade.in {
     top: 20px;
   }
+  .carousel {
+  margin-top:-50px;
+}  
 }
 
 @media (max-width: 480px) {
@@ -945,6 +952,9 @@
   .carousel-caption {
     position: static;
   }
+  .carousel {
+  margin-top:-50px;
+}
 }
 
 @media (max-width: 979px) {
