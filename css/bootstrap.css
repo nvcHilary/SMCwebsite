@@ -160,12 +160,15 @@ textarea {
 }
 
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+		margin: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333;
+		background-color: white;
+		height: 100%;
 }
 
 a {
@@ -227,6 +230,14 @@ a:hover {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
+}
+
+.form-search {
+	margin-top: -5px;
+	z-index: 1111;
+	position: absolute;
+	right: 0;
+	margin-right: 150px;
 }
 
 .span12 {
@@ -565,6 +576,17 @@ a:hover {
   *zoom: 1;
 }
 
+/* Custom container */
+  .container-narrow {
+   margin: 0 auto;
+   padding-top: 35px;
+   max-width: 1000px;
+   }
+   
+ .container-narrow > hr {
+ margin: 30px 0;
+  }
+	  
 .container:before,
 .container:after {
   display: table;
@@ -5078,6 +5100,11 @@ input[type="submit"].btn.btn-mini {
   margin-left: 0;
 }
 
+.footer {
+	text-align: center;
+	margin-top: -80px;
+	}
+
 .tooltip {
   position: absolute;
   z-index: 1030;
@@ -5736,10 +5763,25 @@ a.badge:hover {
   position: absolute;
   right: 0;
   left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   margin-top: -5px;
   line-height: 1;
 }
+
+.carousel .container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    }
+	
+.carousel-control {
+  background-color: transparent;
+  border: 0;
+  font-size: 120px;
+  margin-top: 0;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
 
 .carousel-inner {
   position: relative;
@@ -5754,11 +5796,14 @@ a.badge:hover {
      -moz-transition: 0.6s ease-in-out left;
        -o-transition: 0.6s ease-in-out left;
           transition: 0.6s ease-in-out left;
+  height: 400px;
 }
 
 .carousel .item > img {
   display: block;
   line-height: 1;
+  min-width: 200%;
+  height: 400px;
 }
 
 .carousel .active,
@@ -5833,15 +5878,28 @@ a.badge:hover {
 }
 
 .carousel-caption {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 15px;/*
+	background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-bottom: 250px;
+	margin-left: 100px;/*
   background: #333333;
   background: rgba(0, 0, 0, 0.75);*/
 }
 
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+	
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+	
 .carousel-caption h4,
 .carousel-caption p {
   line-height: 20px;
