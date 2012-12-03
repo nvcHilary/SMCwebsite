@@ -235,7 +235,7 @@ a:hover {
 .form-search {
 	margin-top: -5px;
 	z-index: 1111;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	margin-right: 150px;
 }
@@ -5102,8 +5102,9 @@ input[type="submit"].btn.btn-mini {
 
 .footer {
 	text-align: center;
-	margin-top: -80px;
-	}
+  position: absolute;
+	margin: 0px;
+}
 
 .tooltip {
   position: absolute;
