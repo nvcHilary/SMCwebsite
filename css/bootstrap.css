@@ -234,7 +234,7 @@ a:hover {
 
 .form-search {
 	margin-top: -5px;
-	z-index: 1111;
+	z-index: 1;
 	position: fixed;
 	right: 0;
 	margin-right: 150px;
@@ -248,7 +248,7 @@ a:hover {
       text-align: center;
     }
     .marketing h2 {
-      font-weight: normal;
+      font-weight: bold;
     }
     .marketing .span4 p {
       margin-left: 0px;
@@ -260,14 +260,14 @@ a:hover {
     ------------------------- */
 
     .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      margin: 20px 0; /* Space out the Bootstrap <hr> more */
     }
     .featurette {
-      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      padding-top: 30px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
     }
     .featurette-image {
-      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      margin-top: 50px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
 
     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -280,8 +280,6 @@ a:hover {
 
     /* Thin out the marketing headings */
     .featurette-heading {
-      font-size: 50px;
-      font-weight: 300;
       line-height: 1;
       letter-spacing: -1px;
     }
@@ -665,11 +663,19 @@ p {
   margin: 0 0 10px;
 }
 
+.prayer {
+	font-size: 20px;
+	text-align:center;
+	font-weight: bold;
+	width: 600px;
+	margin-left: 150px;
+	}
+	
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
-  font-weight: 200;
+  font-size: 20px;
   line-height: 30px;
+  text-align: justify;
 }
 
 small {
@@ -873,7 +879,7 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #dadada;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -1802,6 +1808,9 @@ input.search-query {
      -moz-border-radius: 15px;
           border-radius: 15px;
 }
+
+/* title for each page */
+
 
 /* Allow for input prepend/append in search forms */
 
@@ -4420,7 +4429,6 @@ input[type="submit"].btn.btn-mini {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1030;
   margin-bottom: 0;
 }
 
