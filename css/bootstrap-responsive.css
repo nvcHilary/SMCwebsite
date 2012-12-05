@@ -79,6 +79,19 @@
   margin-top:-55px;
 }
 
+  .featurette {
+  height: auto;
+  padding: 0;
+}
+
+  .featurette-image.pull-left,
+  .featurette-image.pull-right {
+  display: block;
+  float: none;
+  max-width: 40%;
+  margin: 0 auto 20px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -94,6 +107,15 @@
   .hidden-phone {
     display: none !important;
   }
+  
+ .featurette-heading {
+  font-size: 30px;
+      }
+ 
+ .featurette .lead {
+ font-size: 18px;
+ line-height: 1.5;
+      }
 }
 
 @media (min-width: 1200px) {
@@ -916,7 +938,7 @@
 
   .form-search {
 	margin-top:10px;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	margin-right: 50px;
 	}
@@ -981,7 +1003,7 @@
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
-    position: static;
+    position: fixed;
   }
   .navbar-fixed-top {
     margin-bottom: 20px;
