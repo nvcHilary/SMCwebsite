@@ -234,7 +234,7 @@ a:hover {
 
 .form-search {
 	margin-top: -5px;
-	z-index: 1;
+	z-index: 3;
 	position: fixed;
 	right: 0;
 	margin-right: 150px;
@@ -4238,7 +4238,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar {
   *position: relative;
-  *z-index: 2;
+  z-index: 2;
   margin-bottom: 20px;
   overflow: visible;
   color: #777777;
@@ -5805,6 +5805,7 @@ a.badge:hover {
   margin-bottom: 60px;
   margin-top: -5px;
   line-height: 1;
+  z-index:1;
 }
 
 .carousel .container {
