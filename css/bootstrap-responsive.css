@@ -81,7 +81,6 @@
 
   .featurette {
   height: auto;
-  padding: 0;
 }
 
   .featurette-image.pull-left,
@@ -91,6 +90,11 @@
   max-width: 40%;
   margin: 0 auto 20px;
     }
+	
+.prayer {
+	padding-left: 100px;
+	padding-right: 100px;
+	}
 
 }
 
@@ -995,6 +999,11 @@
   .carousel {
   margin-top:-55px;
 }
+
+	.prayer {
+	padding-left: 1px;
+	padding-right: 10px;
+	}
 }
 
 @media (max-width: 979px) {

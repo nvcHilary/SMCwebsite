@@ -249,9 +249,14 @@ a:hover {
     .featurette {
       padding-top: 30px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
+	  padding: 5px 10px 5px 10px;
+	  border: 2px solid #DACDCD;
+	  border-radius: 5px;
+	  box-shadow: 5px 5px 10px #CCC;
+	  background: #F3F3F2;
     }
     .featurette-image {
-      margin-top: 50px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      margin-top: 65px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
 
     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -264,8 +269,8 @@ a:hover {
 
     /* Thin out the marketing headings */
     .featurette-heading {
-      line-height: 1;
-      letter-spacing: -1px;
+      line-height: 1.5;
+	  text-align:center;
     }
 
 .span12 {
@@ -651,13 +656,14 @@ p {
 	font-size: 20px;
 	text-align:center;
 	font-weight: bold;
-	width: 600px;
-	margin-left: 150px;
+	padding-left: 200px;
+	padding-right: 200px;
 	}
 	
 .lead {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
   line-height: 30px;
   text-align: justify;
 }
@@ -2815,6 +2821,15 @@ table th[class*="span"],
   *margin-bottom: -3px;
 }
 
+.dropdown-toggle.active{
+  color: #555555;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
 .dropdown-toggle:active,
 .open .dropdown-toggle {
   outline: 0;
@@ -2862,6 +2877,10 @@ table th[class*="span"],
      -moz-background-clip: padding;
           background-clip: padding-box;
 }
+
+.dropdown-menu li.active a {
+	font-weight: bold;
+	}
 
 .dropdown-menu.pull-right {
   right: 0;
