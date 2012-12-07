@@ -99,10 +99,6 @@
 }
 
 @media (max-width: 767px) {
-
-  .form-search {
-	margin-top: 10px;
-  }
   
   .hidden-desktop {
     display: inherit !important;
@@ -960,13 +956,6 @@
 	.row-fluid {
   	margin-top:200px;
   }
-  
-  .form-search {
-	margin-top:10px;
-	position: fixed;
-	right: 0;
-	margin-right: 40px;
-	}
 	
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
