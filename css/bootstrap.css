@@ -167,7 +167,7 @@ body {
 		font-size: 14px;
 		line-height: 20px;
 		color: #333;
-		background-color: white;
+		background: #D8CCCC;
 		height: 100%;
 }
 
@@ -234,11 +234,44 @@ a:hover {
 
 .form-search {
 	margin-top: -5px;
-	z-index: 1111;
+	z-index: 3;
 	position: fixed;
 	right: 0;
 	margin-right: 150px;
 }
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 20px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 30px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+	  padding: 5px 10px 5px 10px;
+	  border: 2px solid #DACDCD;
+	  border-radius: 5px;
+	  box-shadow: 5px 5px 10px #CCC;
+	  background: #F3F3F2;
+    }
+    .featurette-image {
+      margin-top: 65px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      line-height: 1.5;
+	  text-align:center;
+    }
 
 .span12 {
   width: 940px;
@@ -580,7 +613,7 @@ a:hover {
   .container-narrow {
    margin: 0 auto;
    padding-top: 35px;
-   max-width: 1000px;
+   max-width: 1200px;
    }
    
  .container-narrow > hr {
@@ -619,11 +652,20 @@ p {
   margin: 0 0 10px;
 }
 
+.prayer {
+	font-size: 20px;
+	text-align:center;
+	font-weight: bold;
+	padding-left: 200px;
+	padding-right: 200px;
+	}
+	
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: bold;
   line-height: 30px;
+  text-align: justify;
 }
 
 small {
@@ -827,7 +869,7 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #dadada;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -1757,6 +1799,9 @@ input.search-query {
           border-radius: 15px;
 }
 
+/* title for each page */
+
+
 /* Allow for input prepend/append in search forms */
 
 .form-search .input-append .search-query,
@@ -2192,7 +2237,7 @@ table th[class*="span"],
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
-.nav-list > .active > a > [class^="icon-"],
+.-list > .active > a > [class^="icon-"],
 .nav-list > .active > a > [class*=" icon-"],
 .navbar-inverse .nav > .active > a > [class^="icon-"],
 .navbar-inverse .nav > .active > a > [class*=" icon-"],
@@ -2776,6 +2821,15 @@ table th[class*="span"],
   *margin-bottom: -3px;
 }
 
+.dropdown-toggle.active{
+  color: #555555;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
 .dropdown-toggle:active,
 .open .dropdown-toggle {
   outline: 0;
@@ -2808,7 +2862,7 @@ table th[class*="span"],
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  background-color: #ffffff;
+  background: #910707;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
@@ -2823,6 +2877,10 @@ table th[class*="span"],
      -moz-background-clip: padding;
           background-clip: padding-box;
 }
+
+.dropdown-menu li.active a {
+	font-weight: bold;
+	}
 
 .dropdown-menu.pull-right {
   right: 0;
@@ -2845,7 +2903,7 @@ table th[class*="span"],
   clear: both;
   font-weight: normal;
   line-height: 20px;
-  color: #333333;
+  color: #fff;
   white-space: nowrap;
 }
 
@@ -2853,7 +2911,7 @@ table th[class*="span"],
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: none;/*
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
@@ -2861,7 +2919,8 @@ table th[class*="span"],
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);*/
+  font-weight: bold; 
 }
 
 .dropdown-menu .active > a,
@@ -4198,7 +4257,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar {
   *position: relative;
-  *z-index: 2;
+  z-index: 2;
   margin-bottom: 20px;
   overflow: visible;
   color: #777777;
@@ -4208,8 +4267,8 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background: #910707;
+ /*  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
@@ -4219,7 +4278,7 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);*/
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -4374,7 +4433,6 @@ input[type="submit"].btn.btn-mini {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1030;
   margin-bottom: 0;
 }
 
@@ -4464,6 +4522,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
   color: #555555;
+  font-weight: bold;
   text-decoration: none;
   background-color: #e5e5e5;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -4618,7 +4677,7 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
 }
 
-.navbar-inverse .navbar-inner {
+.navbar-inverse .navbar-inner {/*
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
@@ -4627,12 +4686,12 @@ input[type="submit"].btn.btn-mini {
   background-image: linear-gradient(to bottom, #222222, #111111);
   background-repeat: repeat-x;
   border-color: #252525;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);*/
 }
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #999999;
+  color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -4651,7 +4710,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
   color: #ffffff;
-  background-color: #111111;
+  background: #910707
 }
 
 .navbar-inverse .navbar-link {
@@ -4671,7 +4730,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
   color: #ffffff;
-  background-color: #111111;
+  background-color: #910707;
 }
 
 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
@@ -5102,9 +5161,7 @@ input[type="submit"].btn.btn-mini {
 
 .footer {
 	text-align: center;
-  position: absolute;
-	margin: 0px;
-}
+	}
 
 .tooltip {
   position: absolute;
@@ -5767,6 +5824,7 @@ a.badge:hover {
   margin-bottom: 60px;
   margin-top: -5px;
   line-height: 1;
+  z-index:1;
 }
 
 .carousel .container {
@@ -5803,7 +5861,7 @@ a.badge:hover {
 .carousel .item > img {
   display: block;
   line-height: 1;
-  min-width: 200%;
+  min-width: 100%;
   height: 400px;
 }
 
