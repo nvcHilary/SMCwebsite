@@ -233,11 +233,8 @@ a:hover {
 }
 
 .form-search {
-	margin-top: -5px;
-	z-index: 3;
-	position: fixed;
-	right: 0;
-	margin-right: 150px;
+	margin-top: 5px;
+	float:right;
 }
 
     /* Featurettes
@@ -994,8 +991,8 @@ pre code {
   overflow-y: scroll;
 }
 
-form {
-  margin: 0 0 20px;
+form {/*
+  margin: 0 0 20px;*/
 }
 
 fieldset {
@@ -4487,7 +4484,6 @@ input[type="submit"].btn.btn-mini {
   display: block;
   float: left;
   margin: 0 10px 0 0;
-  padding-left: 120px;
 }
 
 .navbar .nav.pull-right {
