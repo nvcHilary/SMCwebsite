@@ -1,0 +1,13 @@
+{
+  "name": "SMC Ipoh",
+  "description": "Static Portfolio for Church of St.Michael Ipoh",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "NexVend",
+    "url": "http://nexvend.com"
+  },
+  "default_locale": "en"
+}
