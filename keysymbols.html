@@ -37,18 +37,20 @@
           <div class="nav-collapse collapse">
 
             <ul class="nav">
-              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">Home</a></li>
+			  <li class="menu"><a href="#">Bulletin</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle active" data-toggle="dropdown">About <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="keyinfo.html">Key Info</a></li>
-                  <li class="active"><a href="keysymbols.html">Key Symbols</a></li>
-                  <li><a href="parishstructure.html">Parish Structure</a></li>
+                  <li><a href="#">Key Info</a></li>
+                  <li class="active"><a href="#">Key Symbols</a></li>
+                  <li><a href="#">Parish Structure</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inquiries <b class="caret"></b></a>
                 <ul class="dropdown-menu">
+                  <li><a href="#">Weekly Bulletin</a></li>
                   <li><a href="#">History</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -62,17 +64,20 @@
                 </ul>
               </li>
             </ul>
-			  	<form class="form-search">
+			
+				<form class="form-search" method="get" action="http://www.google.com/search">
 					<div class="input-append">
-						<input type="text" class="span2 search-query">
+						<input class="span2 search-query" type="text" name="query" value="" />
 						<button type="submit" class="btn">Search</button>
+						<input type="hidden"  name="sitesearch" value="smcipoh.com" checked />
 					</div>
 				</form>
+			
           </div><!--/.nav-collapse -->
         </div>
       </div>
 	 </div>
-
+	 
     <div class="container-narrow">
 	
       <!-- START THE FEATURETTES -->
