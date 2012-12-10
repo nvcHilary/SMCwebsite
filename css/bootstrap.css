@@ -247,10 +247,6 @@ a:hover {
       padding-top: 30px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
 	  padding: 5px 10px 5px 10px;
-	  border: 2px solid #DACDCD;
-	  border-radius: 5px;
-	  box-shadow: 5px 5px 10px #CCC;
-	  background: #F3F3F2;
     }
     .featurette-image {
       margin-top: 65px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
@@ -268,6 +264,8 @@ a:hover {
     .featurette-heading {
       line-height: 1.5;
 	  text-align:center;
+	  font-family: 'Monda';
+	  text-shadow: 0.1em 0.1em 0.2em #000;
     }
 
 .span12 {
@@ -2874,6 +2872,27 @@ table th[class*="span"],
      -moz-background-clip: padding;
           background-clip: padding-box;
 }
+/* hover */
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+/* ------------------------- */
 
 .dropdown-menu li.active a {
 	font-weight: bold;
@@ -2949,10 +2968,6 @@ table th[class*="span"],
 
 .open {
   *z-index: 1000;
-}
-
-.open > .dropdown-menu {
-  display: block;
 }
 
 .pull-right > .dropdown-menu {
@@ -4506,6 +4521,10 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
 }
+
+.navbar .nav .menu a:hover {
+	font-weight: bold;
+	}
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
