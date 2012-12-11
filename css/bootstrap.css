@@ -69,7 +69,7 @@ sub {
 
 img {
   width: auto\9;
-  height: auto;
+ /* height: auto;*/
   max-width: 100%;
   vertical-align: middle;
   border: 0;
@@ -248,7 +248,17 @@ a:hover {
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
 	  padding: 5px 10px 5px 10px;
     }
-    .featurette-image {
+    .featurette-single {
+      margin-top: 0px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+	  margin-left: 10px
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-single.pull-left {
+      margin-right: 40px;
+    }    
+	
+	.featurette-image {
       margin-top: 65px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
 
@@ -364,9 +374,11 @@ a:hover {
   margin-left: 100px;
 }
 
-.row-fluid {
+.main {
+	margin-top: 410px;
+	}
+.row-fluid{
   width: 100%;
-  margin-top: 410px;
   *zoom: 1;
 }
 
