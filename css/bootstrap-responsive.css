@@ -84,7 +84,8 @@
 }
 
   .featurette-image.pull-left,
-  .featurette-image.pull-right {
+  .featurette-image.pull-right, 
+  .featurette-single.pull-left  {
   display: block;
   float: none;
   max-width: 40%;
@@ -285,7 +286,9 @@
     *width: 40.11774868157847%;
   }
   .row-fluid .span4 {
-    width: 31.623931623931625%;
+    width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
     *width: 31.570740134569924%;
   }
   .row-fluid .span3 {
@@ -302,6 +305,7 @@
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px #cccccc;
 	background:#f3f3f2;
+	min-height: 500px;
     *width: 14.476723040552828%;
   }
   .row-fluid .span1 {	
@@ -589,11 +593,14 @@
   .offset1 {
     margin-left: 82px;
   }
-  .row-fluid {
-    width: 100%;
+  .main {
 	margin-top:305px;
-    *zoom: 1;
   }
+  
+  .row-fluid {
+   margin-top: 20px;
+   }
+   
   .row-fluid:before,
   .row-fluid:after {
     display: table;
@@ -669,6 +676,7 @@
 	border: 2px solid #DACDCD;
 	border-radius: 5px;
 	background:#f3f3f2;
+	min-height: 500px;
     *width: 14.476723040552828%;
   }
   .row-fluid .span1 {
@@ -867,10 +875,14 @@
   .container {
     width: auto;
   }
-  .row-fluid {
-    width: 100%;
+  .main{
 	margin-top:360px;
+  } 
+
+  .row-fluid {
+	margin-top:20px;
   }
+  
   .row,
   .thumbnails {
     margin-left: 0;
@@ -956,9 +968,13 @@
   h1 {
 	font-size: 20px;
 	}
-	
-	.row-fluid {
+
+	.main {
   	margin-top:200px;
+  }	
+  
+  .row-fluid {
+  	margin-top:20px;
   }
 	
   .nav-collapse {
