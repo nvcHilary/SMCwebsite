@@ -338,7 +338,7 @@ a:hover {
 }
 
 .span4 {
-  width: 300px;
+  width: 305px;
 }
 
 .span3 {
@@ -647,7 +647,7 @@ a:hover {
   .container-narrow {
    margin: 0 auto;
    padding-top: 35px;
-   max-width: 1200px;
+   max-width: 1100px;
    }
    
  .container-narrow > hr {
