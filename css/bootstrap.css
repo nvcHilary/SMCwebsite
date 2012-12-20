@@ -76,6 +76,16 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+img#bg {
+/* Stretch background */
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:-1;
+}
+
 #map_canvas img,
 .google-maps img {
   max-width: none;
@@ -304,6 +314,10 @@ a:hover {
 	  font-family: 'Monda';
 	  text-shadow: 0.1em 0.1em 0.2em #000;
     }
+	
+	.featurette th{
+		font-weight: 100;
+	}
 
 .span12 {
   width: 940px;
