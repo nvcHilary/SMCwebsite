@@ -165,13 +165,13 @@
     width: 770px;
   }
   .span7 {
-    width: 670px;
+    width: 45%;
   }
   .span6 {
     width: 45%;
   }
   .span5 {
-    width: 45%;
+    width: 470px;
   }
   .span4 {
     width: 345px;
@@ -274,7 +274,7 @@
     *width: 65.75877432260411%;
   }
   .row-fluid .span7 {
-    width: 57.26495726495726%;
+    width: 45%;
     *width: 57.21176577559556%;
   }
   .row-fluid .span6 {
@@ -282,7 +282,7 @@
     *width: 48.664757228587014%;
   }
   .row-fluid .span5 {
-    width: 45%;
+    width: 40.11774868157847%;
     *width: 40.11774868157847%;
   }
   .row-fluid .span4 {
@@ -537,13 +537,13 @@
     width: 476px;
   }
   .span7 {
-    width: 414px;
+    width: 45%;
   }
   .span6 {
     width: 45%;
   }
   .span5 {
-    width: 45%;
+    width: 290px;
   }
   .span4 {
     width: 247px;
@@ -588,7 +588,7 @@
     margin-left: 206px;
   }
   .offset2 {
-    margin-left: 144px;
+    margin-left: 280px;
   }
   .offset1 {
     margin-left: 82px;
@@ -648,7 +648,7 @@
     *width: 65.69266486422946%;
   }
   .row-fluid .span7 {
-    width: 57.18232044198895%;
+    width: 45%;
     *width: 57.12912895262725%;
   }
   .row-fluid .span6 {
@@ -656,7 +656,7 @@
     *width: 48.56559304102504%;
   }
   .row-fluid .span5 {
-    width: 45%;
+    width: 40.00205712942283%;
     *width: 40.00205712942283%;
   }
   .row-fluid .span4 {
