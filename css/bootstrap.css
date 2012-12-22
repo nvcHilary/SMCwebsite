@@ -406,6 +406,7 @@ a:hover {
 }
 
 .offset2 {
+  float: right;
   margin-left: 350px;
 }
 
@@ -414,12 +415,11 @@ a:hover {
 }
 
 .main {
-	margin-top: 410px;
+	margin-top: 450px;
 	}
 .row-fluid{
   width: 100%;
   *zoom: 1;  
-  overflow:auto;
   padding-bottom: 20px;
 }
 
@@ -660,6 +660,7 @@ a:hover {
 /* Custom container */
   .container-narrow {
    margin: 0 auto;
+   margin-top: 50px;
    max-width: 1100px;
    min-height: 100%;
    }
@@ -915,7 +916,7 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 30px 0;
   border: 0;
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #ffffff;
@@ -5894,7 +5895,7 @@ a.badge:hover {
   right: 0;
   left: 0;
   margin-bottom: 60px;
-  margin-top: -5px;
+  margin-top: -410px;
   line-height: 1;
   z-index:1;
 }

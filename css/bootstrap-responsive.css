@@ -76,7 +76,7 @@
   }
   
   .carousel {
-  margin-top:-55px;
+  margin-top:-360px;
 }
 
   .featurette {
@@ -543,7 +543,7 @@
     width: 45%;
   }
   .span5 {
-    width: 290px;
+    width: 340px;
   }
   .span4 {
     width: 247px;
@@ -588,13 +588,13 @@
     margin-left: 206px;
   }
   .offset2 {
-    margin-left: 280px;
+    margin-left: 220px;
   }
   .offset1 {
     margin-left: 82px;
   }
   .main {
-	margin-top:305px;
+	margin-top:410px;
   }
   
   .row-fluid {
@@ -876,7 +876,7 @@
     width: auto;
   }
   .main{
-	margin-top:360px;
+	margin-top:450px;
   } 
 
   .row-fluid {
@@ -951,7 +951,7 @@
     top: 20px;
   }
   .carousel {
-  margin-top:-55px;
+  margin-top:-405px;
 }  
 }
 
@@ -970,7 +970,7 @@
 	}
 
 	.main {
-  	margin-top:200px;
+  	margin-top:305px;
   }	
   
   .row-fluid {
@@ -1027,7 +1027,7 @@
     position: static;
   }
   .carousel {
-  margin-top:-55px;
+  margin-top:-255px;
 }
 
 	.prayer {
