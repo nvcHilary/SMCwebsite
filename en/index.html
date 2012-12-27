@@ -17,6 +17,15 @@
     <![endif]-->
 
     <link rel="shortcut icon" href="../img/favicon.ico">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		$('.pull-me').click(function(){
+			$('.panel').slideToggle('slow');
+		});
+		});
+	</script>
+	
   </head>
 
   <body>
@@ -73,6 +82,18 @@
         </div>
       </div>
 	 </div>
+	 
+	 <!-- Language Selection -->
+	 
+	<section id="selector">    
+        <div class="panel">
+            <br />
+            <p><a href="#">English</a></p>
+            <br />
+            <p><a href="#">Chinese</a></p>
+        </div>    
+        <p class="slide"><a href="#" class="pull-me">Choose Language</a></p>
+    </section>
 
     <div class="container-narrow">
 	

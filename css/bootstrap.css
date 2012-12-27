@@ -269,14 +269,22 @@ a:hover {
 		border: 3px solid white;		
 		color: #fff;
 		}
-		
+
+	/* splash Page End */
+	
+	/* the jquery language */
 	#selector{
+		margin:0 auto;
+		padding:0;
 		width:200px;
-		text-align:center;
-		position:fixed;
-		right:40%;
-		top:0px;
+		position: fixed;
+		z-index:100;
+		top:40px;
+		left: 50%;
+		margin-left: -100px;
+		font-weight: bold;
 		font-size: 30px;
+		text-align:center;
 	}
 	#selector a{
 		text-decoration: none;
@@ -306,10 +314,11 @@ a:hover {
 	.pull-me {
 		display:block;
 		position:relative;
-		height:30px;
+		right:-25px;
+		width:150px;
+		height:20px;
 		font-family:arial,sans-serif;
-		font-size:20px;
-		padding-top: 5px;
+		font-size:14px;
 		color:#ffffff;
 		background:#cc0000;
 		text-decoration:none;
@@ -321,9 +330,8 @@ a:hover {
 	.pull-me p {
 		text-align:center;
 	}
-
-	/* splash Page End */
-
+	/* ------------------------------------- */
+	
     /* Featurettes
     ------------------------- */
 
@@ -712,6 +720,7 @@ a:hover {
 /* Custom container */
   .container-narrow {
    margin: 0 auto;
+   margin-top: 50px;
    max-width: 1100px;
    min-height: 100%;
    }
