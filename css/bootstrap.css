@@ -269,6 +269,58 @@ a:hover {
 		border: 3px solid white;		
 		color: #fff;
 		}
+		
+	#selector{
+		width:200px;
+		text-align:center;
+		position:fixed;
+		right:40%;
+		top:0px;
+		font-size: 30px;
+	}
+	#selector a{
+		text-decoration: none;
+		color: #ffffff;
+	}
+	#selector a:hover{
+		-webkit-box-shadow: 0 0 8px #cc0000;
+		-moz-box-shadow: 0 0 8px #cc0000;
+		box-shadow: 0 0 8px #cc0000;
+		cursor:pointer;
+	}
+	.panel {
+		background: #D8CCCC;
+		background-size:90% 90%;
+		height:120px;
+		display:none;
+		font-family:garamond,times-new-roman,serif;
+	}
+	.panel p{
+		text-align:center;
+	}
+	.slide {
+		margin:0;
+		padding:0;
+		border-top:solid 2px #cc0000;
+	}
+	.pull-me {
+		display:block;
+		position:relative;
+		height:30px;
+		font-family:arial,sans-serif;
+		font-size:20px;
+		padding-top: 5px;
+		color:#ffffff;
+		background:#cc0000;
+		text-decoration:none;
+		-moz-border-bottom-left-radius:5px;
+		-moz-border-bottom-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+	}
+	.pull-me p {
+		text-align:center;
+	}
 
 	/* splash Page End */
 
@@ -406,6 +458,7 @@ a:hover {
 }
 
 .offset2 {
+  float: right;
   margin-left: 350px;
 }
 
@@ -414,11 +467,12 @@ a:hover {
 }
 
 .main {
-	margin-top: 410px;
+	margin-top: 450px;
 	}
 .row-fluid{
   width: 100%;
-  *zoom: 1;
+  *zoom: 1;  
+  padding-bottom: 20px;
 }
 
 .row-fluid:before,
@@ -658,8 +712,8 @@ a:hover {
 /* Custom container */
   .container-narrow {
    margin: 0 auto;
-   padding-top: 35px;
    max-width: 1100px;
+   min-height: 100%;
    }
    
  .container-narrow > hr {
@@ -913,7 +967,7 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 30px 0;
   border: 0;
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #ffffff;
@@ -5227,6 +5281,10 @@ input[type="submit"].btn.btn-mini {
 
 .footer {
 	text-align: center;
+	position: relative;
+	margin-top: -30px; /* negative value of footer height */
+	height: 20px;
+	clear:both;
 	}
 
 .tooltip {
@@ -5888,7 +5946,7 @@ a.badge:hover {
   right: 0;
   left: 0;
   margin-bottom: 60px;
-  margin-top: -5px;
+  margin-top: -410px;
   line-height: 1;
   z-index:1;
 }
