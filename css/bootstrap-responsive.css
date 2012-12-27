@@ -61,7 +61,27 @@
   display: inherit !important;
 }
 
+@media (min-width: 300px) and (max-width: 380px) {
+
+	#selector {
+		right: 20%;
+		}
+		
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+	#selector {
+		right: 25%;
+		}
+		
+}
 @media (min-width: 768px) and (max-width: 979px) {
+
+	#selector {
+		right: 35%;
+		}
+
   .hidden-desktop {
     display: inherit !important;
   }
