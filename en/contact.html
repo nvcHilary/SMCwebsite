@@ -71,10 +71,22 @@
       </div>
    </div>
    
+	 <!-- Language Selection -->
+	<section id="selector">    
+        <div class="panel">
+            <br />
+            <p><a href="#">English</a></p>
+            <br />
+            <p><a href="#">Chinese</a></p>
+        </div>    
+        <p class="slide"><a href="#" class="pull-me">Choose Language</a></p>
+    </section>
+	 <!-- ---------------------- -->
+   
     <div class="container-narrow">
 
       <!-- START THE FEATURETTES -->
-    
+    <br/><br/>
     <h3>CONTACT</h3>
 
       <div class="featurette">
@@ -98,6 +110,9 @@
       </div>
 
       <!-- /END THE FEATURETTES -->     
+
+
+    </div> <!-- /container -->
   <hr>
   <div class="footer">
         <div class="span5">
@@ -106,9 +121,7 @@
         <div class="span3 offset2">
           <p>Designed by <a href="http://www.nexvend.com/" target="_blank">NexVend</a></p>
         </div>
-      </div>
-
-    </div> <!-- /container -->
+   </div>
 
     <!-- Le javascript
     ================================================== -->
@@ -133,6 +146,13 @@
         $( 'label' ).resizable();
     });
     </script>
+	<script>
+		$(function(){
+		$('.pull-me').click(function(){
+			$('.panel').slideToggle('slow');
+		});
+		});
+	</script>
 
   </body>
 </html>
