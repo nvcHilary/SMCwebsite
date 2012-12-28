@@ -282,7 +282,7 @@ a:hover {
 		top:40px;
 		right: 3%;
 		font-weight: bold;
-		font-size: 30px;
+		font-size: 20px;
 		text-align:center;
 	}
 	#selector a{
@@ -298,7 +298,7 @@ a:hover {
 	.panel {
 		background: #D8CCCC;
 		background-size:90% 90%;
-		height:120px;
+		height:110px;
 		display:none;
 		font-family:garamond,times-new-roman,serif;
 	}
