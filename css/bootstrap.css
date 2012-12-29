@@ -281,8 +281,6 @@ a:hover {
 		z-index:100;
 		top:40px;
 		right: 3%;
-		font-weight: bold;
-		font-size: 20px;
 		text-align:center;
 	}
 	#selector a{
@@ -305,6 +303,13 @@ a:hover {
 	.panel p{
 		text-align:center;
 	}
+	.panel a{	
+		font-size: 20px;
+		font-weight: none;
+		}
+	.panel a:hover{
+		font-weight: bold;
+		}
 	.slide {
 		margin:0;
 		padding:0;
@@ -318,6 +323,7 @@ a:hover {
 		height:20px;
 		font-family:arial,sans-serif;
 		font-size:14px;
+		font-weight: bold;
 		color:#ffffff;
 		background:#910707;
 		text-decoration:none;
