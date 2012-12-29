@@ -2023,3 +2023,14 @@
 
 
 }(window.jQuery);
+
+
+ /* LANGUAGE SELECTION
+  * ============== */
+
+	$(function(){
+		$('.pull-me').click(function(){
+			$('.panel').slideToggle('slow');
+		});
+	});
+
