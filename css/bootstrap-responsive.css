@@ -974,6 +974,19 @@
  .form-search {
 	float: left;
 	}
+
+.language-box {
+	height: 260px;
+	width: 260px;
+	}
+	
+.language-heading {
+	  line-height: 1.5;
+	}
+	
+ .title-heading{
+      font-size: 30px;
+	}
 	
   h1 {
 	font-size: 20px;
