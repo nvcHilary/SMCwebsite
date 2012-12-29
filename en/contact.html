@@ -22,7 +22,7 @@
   <body>
   <!-- Navigation Bar -->
   
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <header class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -69,7 +69,7 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-   </div>
+   </header>
    
 	 <!-- Language Selection -->
 	<section id="selector">    
@@ -83,14 +83,14 @@
     </section>
 	 <!-- ---------------------- -->
    
-    <div class="container-narrow">
+    <section class="container-narrow">
 
       <!-- START THE FEATURETTES -->
     <br/><br/>
     <h3>CONTACT</h3>
 
-      <div class="featurette">
-        <div class="span6">
+      <section class="featurette">
+        <article class="span6">
           <form>
             <label>Feel free to drop us a line or two.</label>
             <input type="text" placeholder="Name...">
@@ -98,61 +98,36 @@
             <label><textarea row="" placeholder="Message..."></textarea></label>
             <label><button type="submit" class="btn btn-primary">Submit</button></label>
           </form>
-      </div>
-      <div class="span7">
+      </article>
+      <article class="span7">
         <h4>Why is your feedback important to us?</h4>
         <ul>
           <li>To enhance the current graphical user interface(GUI) design</li>
           <li>To allow users/parishioners to have control on the upcoming St.Michael's Church News</li>
         </ul>    
         <p>If you need help with navigating the site, please file an email at <a href="mailto:smcipoh@gmail.com" target="_blank">smcipoh@gmail.com</a></p>
-      </div>
-      </div>
+      </article>
+      </section>
 
       <!-- /END THE FEATURETTES -->     
 
 
-    </div> <!-- /container -->
+    </section> <!-- /container -->
   <hr>
-  <div class="footer">
-        <div class="span5">
+  <footer class="footer">
+        <article class="span5">
           <p>&copy;2012 Church of St. Michael,Ipoh. All rights reserved.</p>
-        </div>
-        <div class="span3 offset2">
+        </article>
+        <article class="span3 offset2">
           <p>Designed by <a href="http://www.nexvend.com/" target="_blank">NexVend</a></p>
-        </div>
-   </div>
+        </article>
+   </footer>
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap-transition.js"></script>
-    <script src="../js/bootstrap-alert.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
-    <script src="../js/bootstrap-dropdown.js"></script>
-    <script src="../js/bootstrap-scrollspy.js"></script>
-    <script src="../js/bootstrap-tab.js"></script>
-    <script src="../js/bootstrap-tooltip.js"></script>
-    <script src="../js/bootstrap-popover.js"></script>
-    <script src="../js/bootstrap-button.js"></script>
-    <script src="../js/bootstrap-collapse.js"></script>
-    <script src="../js/bootstrap-carousel.js"></script>
-    <script src="../js/bootstrap-typeahead.js"></script>
-    <script src="../js/jquery-ui-1.9.2.custom.js"></script>
-    <script src="../js/jquery-ui-1.9.2.custom.min.js"></script>
-    <script>
-    $(function() {
-        $( 'label' ).resizable();
-    });
-    </script>
-	<script>
-		$(function(){
-		$('.pull-me').click(function(){
-			$('.panel').slideToggle('slow');
-		});
-		});
-	</script>
+    <script src="../js/bootstrap.js"></script>
 
   </body>
 </html>

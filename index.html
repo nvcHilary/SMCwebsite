@@ -22,8 +22,8 @@
   </head>
 
   <body>
-    <div class="container-narrow">
-	  <div class="row-fluid">
+    <section class="container-narrow">
+	  <article class="row-fluid">
 		<section><br/><br/>
 			<h2 class="featurette-heading">Choose a Language</h2>
 			<br />
@@ -38,87 +38,26 @@
 			</div>
 			</center>
 		</section>
-	  </div>     
-	</div>
+	  </article>     
+	</section>
 	
-	 <div class="footer">
-        <div class="span5">
+	 <footer class="footer">
+        <article class="span5">
           <p>&copy;2012 Church of St. Michael,Ipoh. All rights reserved.</p>
-        </div>
-        <div class="span3 offset2">
+        </article>
+        <article class="span3 offset2">
          <p>Designed by <a href="http://www.nexvend.com/" target="_blank">NexVend</a></p>
-        </div>
-      </div>
-
-	
-
+        </article>
+      </footer>
 	
 	<!-- The container for the background-image -->
 	<img id="bg" style="display:none" />
 	
-		<script type="text/javascript" src="js/jquery.js"></script>
-
-	<script type="text/javascript">
-		var aImages = new Array();
-		var aURL = new Array();
-		var aArtists = new Array();
-		var iPrev = -1;
-		var iRnd = -1;
-		
-		aImages[0] = "img/w1.jpg";
-		aImages[1] = "img/w2.jpg";
-		aImages[2] = "img/w3.jpg";
-		
-		$(document).ready(function() {
-		
-			/* Define the function that triggers to fade in the background as soon as the image has loaded */
-			$("img#bg").load(function()
-				{
-					/* Fade in during 3 seconds */
-					$("img#bg").fadeTo(1000,1);
-				
-					/* Set the timeout to fade out the image and the description after 10 seconds*/
-					setTimeout(function() 
-						{
-							$("#image_description").animate({right: '-=150'}, 1000);
-							$("img#bg").fadeOut(1000);
-							
-							/* Load the next image after 4 seconds */
-							setTimeout(LoadImages,1000);
-						}
-						,10000);
-				}			
-			)
-		
-			/* Start the slideshow one second after the page is ready */ 
-			setTimeout(LoadImages,0);
-			
-		});
-
-		function LoadImage(iNr)
-		{
-		
-			/* Assign the new image to the background */
-			$("img#bg").attr("src", aImages[iNr]);
-								
-		};
-		
-		function LoadImages()
-		{
-			
-			/* Select a random image number and make sure this is not equal to the previous image */
-			while(iPrev == iRnd)
-			{
-				iRnd = Math.floor(Math.random()*aImages.length);
-			}
-			
-			/* Show the selected image */
-			LoadImage(iRnd);
-			
-			iPrev = iRnd;
-			
-		};
-	</script>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
 
   </body>
 </html>
