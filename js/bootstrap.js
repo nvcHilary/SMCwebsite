@@ -2037,7 +2037,7 @@
 		aImages[1] = "img/w2.jpg";
 		aImages[2] = "img/w3.jpg";
 		
-		$(document).ready(function() {
+		$(function() {
 		
 			/* Define the function that triggers to fade in the background as soon as the image has loaded */
 			$("img#bg").load(function()
