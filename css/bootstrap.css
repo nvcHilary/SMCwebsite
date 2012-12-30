@@ -325,8 +325,9 @@ a:hover {
 		text-align:center;
 	}
 	.panel a{	
-		font-size: 20px;
+		font-size: 15px;
 		font-weight: none;
+    text-shadow: 0.2em 0.1em 0.3em #fff;
 		}
 	.panel a:hover{
 		font-weight: bold;
