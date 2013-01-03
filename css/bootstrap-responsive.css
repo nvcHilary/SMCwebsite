@@ -302,19 +302,19 @@
     *width: 31.570740134569924%;
   }
   .row-fluid .span3 {
-    width: 30%;
+    width: 36.5%;
 	margin-left: 10px;
 	padding: 5px 20px 5px 20px;
     *width: 23.023731587561375%;
   }
   .row-fluid .span2 {
-    width: 69%;
+    width: 62.5%;
 	margin-left: 0px;
 	padding: 5px 10px 5px 10px;
 	border: 2px solid #DACDCD;
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px #cccccc;
-	background:#f3f3f2;
+	background:#E3E5DB;
 	min-height: 500px;
     *width: 14.476723040552828%;
   }
@@ -685,7 +685,7 @@
 	padding: 5px 10px 5px 10px;
 	border: 2px solid #DACDCD;
 	border-radius: 5px;
-	background:#f3f3f2;
+	background:#E3E5DB;
 	min-height: 500px;
     *width: 14.476723040552828%;
   }
