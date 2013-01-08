@@ -91,12 +91,13 @@
 
       <section class="featurette">
         <article class="span6">
-          <form>
+          <form method="POST" action="http://localhost/testing/en/contact/index.php">
             <label>Feel free to drop us a line or two.</label>
-            <input class="input-xlarge" type="text" placeholder="Name...">
-            <label><input class="input-xlarge" type="text" placeholder="Email..."></label>
-            <label><textarea class="input-xlarge" row="" placeholder="Message..."></textarea></label>
-	    <label><button type="submit" class="btn btn-danger btn-large"><i class="icon-envelope icon-white"></i>&nbsp; Send</button></label>
+            <input type="text" name="name" placeholder="Name...">
+            <label><input type="text" name="email" placeholder="Email..."></label>
+            <label><textarea row="" name="message" placeholder="Message..."></textarea></label>
+            <label><button type="submit" class="btn btn-danger btn-large"><i class="icon-envelope icon-white"></i>&nbsp; Send</button></label>
+          </form>
       </article>
       <article class="span7">
         <h4>Why is your feedback important to us?</h4>
