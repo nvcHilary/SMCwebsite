@@ -427,11 +427,13 @@ a:hover {
 }
 
 .span7 {
-  width: 540px;
+	width: 45%;
+  /*width: 540px;*/
 }
 
 .span6 {
-  width: 460px;
+	width: 45%;
+  /*width: 460px;*/
 }
 
 .span5 {
@@ -590,7 +592,7 @@ a:hover {
 }
 
 .row-fluid .span4 {
-  width: 31.914893617021278%;
+  width: 100%;
   *width: 31.861702127659576%;
 }
 
