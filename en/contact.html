@@ -2,29 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bulletin</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="NexVend Sdn Bhd">
 
     <!-- Le styles -->
-	  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <!-- Fav and touch icons--> 
+ 
     <link rel="shortcut icon" href="../img/favicon.ico">
   </head>
 
   <body>
-
-	<!-- Navigation Bar -->
+  <!-- Navigation Bar -->
   
-	<header class="navbar navbar-inverse navbar-fixed-top">
+  <header class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -36,22 +34,20 @@
 
             <ul class="nav">
               <li class="menu"><a href="index.html">Home</a></li>
-			        <li class="active"><a href="bulletin.html">Bulletin</a></li>
+              <li class="menu"><a href="bulletin.html">Bulletin</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="keyinfo.html">Key Info</a></li>
                   <li><a href="keysymbols.html">Key Symbols</a></li>
                   <li><a href="parishstructure.html">Parish Structure</a></li>
-                  <li><a href="history.html">History</a></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Inquiries <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="http://www.penangdiocese.org/" target="_blank">Penang Diocese Website</a></li>
-                  <li><a href="http://www.vatican.va/phome_en.htm" target="_blank">Vatican Website</a></li>
-                  <li><a href="http://www.heraldmalaysia.com/" target="_blank">The Herald Website</a></li>
+                  <li><a href="history.html">History</a></li>
+                  <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -64,82 +60,70 @@
                 </ul>
               </li>
             </ul>
-			
-				<form class="form-search" method="get" action="http://www.google.com/search">
-					<div class="input-append">
-						<input class="span2 search-query" type="text" name="query" value="" />
-						<button type="submit" class="btn">Search</button>
-						<input type="hidden"  name="sitesearch" value="smcipoh.com" checked />
-					</div>
-				</form>
-			
+        <form class="form-search" method="get" action="http://www.google.com/search">
+          <div class="input-append">
+            <input class="span2 search-query" type="text" name="query" placeholder="Enter Search..." value="" />
+            <button type="submit" class="btn">Search</button>
+            <input type="hidden"  name="sitesearch" value="smcipoh.com" checked />
+          </div>
+        </form>
           </div><!--/.nav-collapse -->
         </div>
       </div>
-	 </header>
-
+   </header>
+   
 	 <!-- Language Selection -->
 	<section id="selector">    
         <div class="panel">
             <br />
             <p><a href="#">English</a></p>
             <br />
-            <p><a href="http://www.smcipoh.com/SMC_Chinese/SMC_Chinese/yi_bao_sheng_mi_gao_tang.html">中文</a></p>
+            <p><a href="http://www.smcipoh.com/SMC_Chinese/SMC_Chinese/yi_bao_sheng_mi_gao_tang.html">Chinese</a></p>
         </div>    
         <p class="slide"><a href="#" class="pull-me">Choose Language</a></p>
     </section>
 	 <!-- ---------------------- -->
-
+   
     <section class="container-narrow">
-	
-	<h3>CHURCH OF ST.MICHAEL,IPOH - WEEKLY BULLETIN</h3>
-	
-	<!-- Three columns of text below the carousel -->
-      <section class="row">
-        <article class="span4">
-          <center><h2><img class="img-polaroid" src="../img/columbarium.jpg" width="200px" height="320px"></h2>
-        </article><!-- /.span4 -->
-        <article class="span4">
-          <center><h2><img class="img-polaroid" src="../img/stmikefountain.jpg" width="200px" height="320px"></h2>
-        </article><!-- /.span4 -->
-        <article class="span4">
-          <center><h2><img class="img-polaroid" src="../img/balloons.jpg" width="200px" height="320px"></h2>
-        </article><!-- /.span4 -->
-      </section><!-- /.row -->
-	  
-	  		
-          <br/>
-          <br/>
-          <br/>
-		  <section class="row-fluid">
-		  <article class="span4">
-		  <p class="lead">
-		  Click <a href="../img/bulletin2.pdf" target="_blank">here</a> to read this week's bulletin.
-		  
-		  <p class="lead">
-		  Click <a href="../img/bulletin.pdf" target="_blank">here</a> to read last week's bulletin.
 
-		  <p class="lead">
-		  You need Adobe Reader to view the bulletin. Click <a href="http://get.adobe.com/reader/?promoid=BUIGO" target="_blank">here</a> to download free Adobe Reader if you do not have the program.
-			</article>
-			</section>
+      <!-- START THE FEATURETTES -->
+    <br/><br/>
+    <h3>CONTACT</h3>
 
+      <section class="featurette">
+        <article class="span6">
+          <form method="POST" action="http://smcipoh.com/en/contact/">
+            <label>Feel free to drop us a line or two.</label>
+            <input class="input-xlarge" type="text" name="name" placeholder="Name...">
+            <label><input class="input-xlarge" type="text" name="email" placeholder="Email..."></label>
+            <label><textarea class="input-xlarge" row="" name="message" placeholder="Message..."></textarea></label>
+            <label><button type="submit" class="btn btn-danger btn-large"><i class="icon-envelope icon-white"></i>&nbsp; Send</button></label>
+          </form>
+        </article>
+        <article class="span7">
+          <h4>Why is your feedback important to us?</h4>
+          <p><i class="icon-ok-circle icon-inverse"></i>&nbsp; To enhance the current graphical user interface(GUI) design</p>
+          <p><i class="icon-ok-circle icon-inverse"></i>&nbsp; To allow users/parishioners to have control on the upcoming St.Michael's Church News</p>
+          <p>If you need help with navigating the site, please file an email at <a href="mailto:smcipoh@gmail.com" target="_blank">smcipoh@gmail.com</a></p>
+        </article>
+      </section>
+      <!-- /END THE FEATURETTES -->     
     </section> <!-- /container -->
-
-	<hr>
-	<footer class="footer">
+  <hr>
+  <footer class="footer">
         <article class="span5">
-          <p>&copy; 2013 Church of St. Michael,Ipoh. All rights reserved.</p>
+          <p>&copy; 2012 Church of St. Michael,Ipoh. All rights reserved.</p>
         </article>
         <article class="span3 offset2">
           <p>Designed by <a href="http://www.nexvend.com/" target="_blank">NexVend</a></p>
         </article>
-      </footer>
+   </footer>
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery.js"></script>
     <script src="../js/min.js"></script>
-	
+
   </body>
 </html>
