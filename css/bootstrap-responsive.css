@@ -1317,6 +1317,8 @@
   }
 }
 
+/*** fix RSS box size ONLY ***/
+
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
@@ -1325,5 +1327,48 @@
   
   #rssincl-box-234358 *{
 	width: 230px
+	}
+}
+
+@media (min-width: 1100px) {  
+  #rssincl-box-234358 *{
+	width: 340px
+	}
+}
+
+@media (max-width: 310px) {
+	
+  #rssincl-box-234358 *{
+	width: 180px
+	}
+}
+
+@media (min-width: 311px) and (max-width: 320px) {
+  #rssincl-box-234358 *{
+	width: 200px
+	}
+}
+
+@media (min-width: 321px) and (max-width: 330px) {
+  #rssincl-box-234358 *{
+	width: 205px
+	}
+}
+
+@media (min-width: 331px) and (max-width: 340px) {
+  #rssincl-box-234358 *{
+	width: 215px
+	}
+}
+
+@media (min-width: 341px) and (max-width: 350px) {
+  #rssincl-box-234358 *{
+	width: 225px
+	}
+}
+
+@media (min-width: 351px) and (max-width: 360px) {
+  #rssincl-box-234358 *{
+	width: 235px
 	}
 }
