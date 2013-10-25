@@ -5,10 +5,14 @@ CACHE MANIFEST
 /css/bootstrap-responsive.css
 /css/docs.css
 /img/carousel/header01.png
-/img/online.png
+/img/carousel/header02.png
+/img/carousel/header03.png
+/img/carousel/header04.png
+/img/carousel/header05.png
 /img/glyphicons-halflings-white.png
 /img/glyphicons-halflings.png
-/img/gradient.png
+/img/bulletin.pdf
+/img/bulletin2.pdf
 /js/bootstrap.js
 /js/bootstrap.min.js
 /js/jquery.js

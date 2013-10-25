@@ -1,7 +1,7 @@
 {
     "version": "0.1",
     "name": "SMC Ipoh",
-    "description": "Static App for Church of St.Michael, Ipoh, Malaysia",
+    "description": "Official static app for Church of St.Michael, Ipoh, Malaysia",
     "launch_path": "/index.html",
     "appcache_path": "/offline.appcache",
     "icons": {
@@ -13,7 +13,7 @@
         "name": "NexVend Sdn Bhd",
         "url": "http://nexvend.com"
     },
-    "installs_allowed_from": ["http://smcipoh.com"],
+    "installs_allowed_from": ["https://marketplace.mozilla.org", "http://smcipoh.com"],
     "locales": {
 		"es": {
 			"description": "",
@@ -22,7 +22,7 @@
 			}
 		},
 		"it": {
-			"description": "Il vostro nuovo fantastico Open Web App",
+			"description": "",
 			"developer": {
 				"url": "http://nexvend.com"
 			}
