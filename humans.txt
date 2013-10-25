@@ -1,0 +1,23 @@
+/* MAIN */
+  Develop & Maintain by: NexVend Sdn Bhd
+  Twitter: @NexVend
+  Site: http://nexvend.com
+
+/* SITE */
+  Last update: 25/10/2013
+  Doctype: HTML5, CSS3, jQuery, Javascript
+  IDE: Notepad++, Sublime Text 2, Photoshop
+
+/* SPECIAL THANKS */
+  Designer: Vincent Ngu Wen Woo
+  Twitter: 
+
+  Developer: Hilary Ho Jia Hao
+  Twitter: @ho_hilary
+
+  Sign-off Engineer: Soumya Kanti Deb
+  Twitter: @debloper
+
+  Sponsors: Helen Yeap Suen-Li
+  Twitter: 
+
